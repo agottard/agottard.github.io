@@ -9,12 +9,16 @@ body {
      /*color: #7f8387; */
     /*color: #2a3d37; */
     color:     #355866;
-    font-size: 16px;
-    line-height: 2.6;
+    font-size: 14px;
+    line-height: 3.6;
 }
 
 a {
   color: #7693b2
+}
+
+li {
+  padding-bottom: 6px; /* Adds space inside each item */
 }
 
 /* ------------------------------------------------------------------------------
@@ -151,8 +155,8 @@ a {
 .news {
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 10px;
-  line-height: 1.5; /* Set line spacing */
+  padding-bottom: 6px;
+  line-height: 1.6; /* Set line spacing */
 }
 
 /* Add media queries for responsiveness - when the screen is 800px wide or less, stack the links on top of each other */
