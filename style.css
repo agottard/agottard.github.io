@@ -1,0 +1,184 @@
+/* body */
+html, body {
+  height: 98% 
+}
+
+body {
+     font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; /* 'Abel' */
+     /*color: #3b434f;*/
+     /*color: #7f8387; */
+    /*color: #2a3d37; */
+    color:     #355866;
+    font-size: 16px;
+}
+
+a {
+  color: #7693b2
+}
+
+/* ------------------------------------------------------------------------------
+	Header
+-------------------------------------------------------------------------------*/
+
+/* Style the header with some padding */
+.header {
+  overflow: hidden;
+  padding: 1% 1%;
+}
+
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: #61578f;
+  text-align: center;
+  padding-right: 26px;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 20px;
+  border-radius: 4px;
+  opacity: 0.6;
+}
+
+/* Change the opacity on mouse-over */
+.header a:hover {
+  opacity: 1;
+      color: #43617e;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Color link for current page */
+.header-right a.active {
+  opacity: 1;
+  color: #6a9a8b;
+}
+
+/* ------------------------------------------------------------------------------
+	Buttons
+-------------------------------------------------------------------------------*/
+
+.container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 90%;
+  box-sizing: border-box;
+  border-spacing: 10px;
+}
+
+.item {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid ;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.item>.page_link {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  /* box-sizing: border-box;
+  width: 100%;
+  height: 100%; */
+  /* display: block;
+  position: relative;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  margin: auto; */
+}
+
+.fade:hover {
+	background-color: #2f4858;
+  transition: .8s;
+}
+
+.fade:hover>.page_link {
+  color: white
+}
+
+/* Add media queries for responsiveness - when the screen is 800px wide or less, stack the links on top of each other */
+@media screen and (max-width: 800px) {
+  /* .container {
+    height:100%;
+  } */
+  .item {
+    display: block;
+  }
+}
+
+/* For photo pages with a lot of subpages */
+@media screen and (max-width: 1100px) {
+  /* .container {
+    height:100%;
+  } */
+  .many {
+    display: block;
+  }
+}
+
+/* ------------------------------------------------------------------------------
+	HOME
+-------------------------------------------------------------------------------*/
+.flex_container {
+  display: flex;
+  align-items: center;
+}
+
+ .photo_box {
+  padding-left: 20px; 
+} 
+
+.myphoto {
+  max-width: 300px; /* Adjust width as desired */
+  height: auto; /* Maintains aspect ratio */
+}
+
+.homepage_text {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.5; /* Set line spacing */
+}
+
+.news {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  line-height: 1.5; /* Set line spacing */
+}
+
+/* Add media queries for responsiveness - when the screen is 800px wide or less, stack the links on top of each other */
+@media screen and (max-width: 800px) {
+  .flex_container {
+    display: block;
+  }
+}
+
+
+/* ------------------------------------------------------------------------------
+	Research
+-------------------------------------------------------------------------------*/
+.research {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.publication {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.publication a {
+  color: #276ba3;
+}
+
