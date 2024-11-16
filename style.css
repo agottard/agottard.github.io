@@ -4,12 +4,13 @@ html, body {
 }
 
 body {
-     font-family: 'Poppinst', Arial, sans-serif; 
+     font-family: 'Montserrat', sans-serif; 
      /*color: #3b434f;*/
      /*color: #7f8387; */
     /*color: #2a3d37; */
     color:     #355866;
     font-size: 16px;
+    line-height: 2.6;
 }
 
 a {
